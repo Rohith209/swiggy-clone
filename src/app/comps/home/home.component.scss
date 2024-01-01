@@ -1,0 +1,99 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.header {
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: #fff;
+    z-index: 1000;
+    will-change: transform;
+    transform: translateZ(0);
+    transition: transform .3s ease;
+    contain: size layout style;
+    padding: 0 20px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        -ms-flex: 1;
+        flex: 1;
+        min-width: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        height: 100%;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #3d4152;
+        font-size: 16px;
+        font-weight: 500;
+
+        & li {
+            margin-right: 60px;
+            color: #3d4152;
+            font-size: 16px;
+            font-weight: 500;
+
+            &:first-child {
+                margin-right: 0;
+            }
+
+            & a {
+                color: #3d4152;
+                font-size: 16px;
+                font-weight: 500;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-align: center;
+                align-items: center;
+                padding-left: 28px;
+                text-decoration: none;
+            }
+
+            & ._1fmVk {
+                position: relative;
+
+                & ._2CgXb {
+                    position: relative;
+                    height: 80px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 28px;
+
+                    & ._1T-E4 {
+                        height: 100%;
+                        margin-left: -28px;
+                        color: inherit;
+
+                        & ._3yZyp {
+                            position: absolute;
+                            top: 50%;
+                            left: 0;
+                            -ms-transform: translateY(-50%);
+                            transform: translateY(-50%);
+                            line-height: 0;
+                        }
+
+                        & ._2vS77 {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            -ms-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
